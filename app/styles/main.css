@@ -1,11 +1,9 @@
 /*******************************
-
 Colors: #04C4D9 - Dark Blue
         #57F2F2 - Sky Blue
         #F28E13 - Orange
         #D95204 - Dark Orange
         #A62103 - Brown
-
 *******************************/
 
 
@@ -20,4 +18,36 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+header{
+  background: #A62103;
+  width: 100%;
+  top: 0;
+  padding: 5px 0;
+}
+
+#navigation{
+text-align: center;
+
+}
+
+#navigation li{
+  list-style: none;
+  display: inline-block;
+}
+
+#navigation li a{
+  text-decoration: none;
+  margin: 0 20px;
+  color: #F28E13;
+}
+
+#navigation li a:hover{
+  color: #fff;
+}
+
+.content{
+  max-width: 80%;
+  margin: 0 auto;
 }
